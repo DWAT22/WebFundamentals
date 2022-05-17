@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 /* two things to identify to use CSS */
 /* ONE: what are we affecting */
 /* TWO: what are we doing with it */
@@ -7,15 +12,17 @@ h1 {
     color:rgb(16, 100, 16);
     text-align: center;
     font-size: 50px;
+    margin: 15px;
 }
 
 p {
     background-color: aquamarine;
+    padding: 10px;
 
 }
 
 .nogreen {
-    background-color: white;
+    background-color: red;
 }
 
 #mytable {
@@ -28,4 +35,38 @@ p {
 
 .italics {
     font-style: italic;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+td{
+    padding: 10px;
+    color: white;
+}
+table{
+    margin: 10px;
+}
+
+.about{
+    width: 900px;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+
+}
+
+img {
+    margin-left: 20px;
+    width: 600px;
+}
+
+.list {
+    display: inline-block;
+    vertical-align: top;
+}
+.appearances {
+    display: inline-block;
+    vertical-align: top;
 }
