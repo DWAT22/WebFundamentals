@@ -1,0 +1,31 @@
+/* two things to identify to use CSS */
+/* ONE: what are we affecting */
+/* TWO: what are we doing with it */
+h1 {
+    /* within these curly braces are all the changes I will apply to this h1 */
+    /* I want to change the font color */
+    color:rgb(16, 100, 16);
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    background-color: aquamarine;
+
+}
+
+.nogreen {
+    background-color: white;
+}
+
+#mytable {
+    background-color: orange;
+}
+
+.data {
+    background-color: aqua;
+}
+
+.italics {
+    font-style: italic;
+}
