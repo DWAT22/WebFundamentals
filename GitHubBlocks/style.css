@@ -1,5 +1,13 @@
+.container{
+    margin: auto;
+    width: 1000px;
+    height: 1500;
+    
+}
+
+
 .box1{
-    width: 100%;
+    width: 98%;
     height: 300px;
     margin: 20px auto;
     background-color: rgb(106, 106, 230);
@@ -9,7 +17,7 @@
 }
 
 .box2{
-    width: 100%;
+    width: 98%;
     height: 300px;
     margin: 20px auto;
     background-color: rgb(106, 230, 123);
@@ -19,7 +27,7 @@
 }
 
 .box3{
-    width: 100%;
+    width: 98%;
     height: 300px;
     margin: 20px auto;
     background-color: rgb(238, 141, 117);
