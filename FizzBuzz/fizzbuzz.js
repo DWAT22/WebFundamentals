@@ -6,17 +6,13 @@ for(var i = 1; i <= 100; i++){
     if(isDivisibleBy3 && isDivisibleBy5){
         console.log("fizzbuzz");      
     }
-    if(isDivisibleBy3){
-        if(notDivisibleBy5){
+    else if(isDivisibleBy3){
         console.log("fizz");
-        }
     }
-    if(isDivisibleBy5){
-        if(notDivisibleBy3){
+    else if(isDivisibleBy5){
         console.log("buzz");
-        }
     }
-    if(notDivisibleBy3 && notDivisibleBy5){
+    else{
         console.log(i);
     }
     

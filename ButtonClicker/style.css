@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(186, 186, 186);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: center;
+    position:fixed;
+    color: ghostwhite;
+}
+
+.nav a{
+    color: ghostwhite;
+}
+.nav-title{
+    width: 100px;
+    color: ghostwhite;
+    Margin-left: 95px;
+}
+
+.nav-links{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: flex-end;
+    justify-content: space-around;
+    color: ghostwhite;
+}
+
+.nav-links li button{
+    padding: 5px;
+    background-color: Gold;
+    border: 2px solid black;
+    border-radius: 2px;
+    box-shadow: 2px 5px black;
+    display: table-cell;
+    vertical-align: middle;
+    margin-right: 35px;
+}
+
+.page{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+.topleft{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-right: -75px;
+
+}
+
+.topleft button {
+    margin-top: 30px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+
+.info{
+    position: relative;
+    margin-top: -75px;
+    margin-left: 120px;
+}
+
+h1{
+    margin-left: 20px;
+}
+
+h3{
+    margin-left: 20px;
+    font-style: italic;
+}
+
+h4 {
+    margin-left: 20px;
+    
+}
+
+button {
+    margin-left: 20px;
+    background-color: rgb(247, 206, 83);
+    border: 5px Black;
+    box-shadow: 2px 2px black;
+}
+
+
+.bottomleft{
+    width: 500px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: -75px;
+
+
+}
+
+.bottomleft button {
+    margin-top: 30px;
+}
+
+.likes {
+    width: 60px;
+}
+
+
+
+.right {
+    width: 250px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: -75px;
+}
+
+.right button {
+    background-color: rgb(91, 123, 93);
+    border: 10px Black;
+    box-shadow: 2px 2px black;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 10px;
+
+}
+
+.right h3 {
+    font-style: normal;
+}
+

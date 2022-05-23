@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+            <ul class="nav-links">
+                <li><button class="btn" onclick="turnOff(this)">Login</button></li>
+            </ul>
+    </div>
+    <div class="page">
+        <div class="topleft">
+            <div class="left">
+                <h1>ninja</h1>
+                <h3>noun</h3>
+                <h4>Plural:ninjas</h4>
+                <button class="likes"><span id="number">13</span> Likes</button>
+            </div>
+            <div class="info">
+                <h4>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutstu</a></h4>
+            </div>
+        </div>
+        <div class="bottomleft">
+            <div class="left">
+                <h1>ninja</h1>
+                <h3>noun</h3>
+                <h4>Plural:ninjas</h4>
+                <button class="likes"><span id="number">13</span> Likes</button>
+            </div>
+            <div class="info">
+                <h4>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</h4>
+            </div>
+        </div>
+        <div class="right">
+            <h3>Dojonary is defined by <p>you</p></h3>
+            <button onclick="hide(this)" onmouseover="over(this)" onmouseout="out(this)" class="def" >Add Definition</button>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
