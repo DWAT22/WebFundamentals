@@ -1,5 +1,5 @@
-function alert() {
-    console.log('Loading weather report...');
+function loading() {
+    alert('Loading weather report...');
 }
 
 
